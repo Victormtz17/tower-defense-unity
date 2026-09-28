@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942d0fd0835f3ae499e253b44e2a2bd0, type: 3}
+  m_Name: GameScenario
+  m_EditorClassIdentifier: Assembly-CSharp::GameScenario
+  waves:
+  - {fileID: 11400000, guid: db74dc42813e8e6419da6155f5b5e0f0, type: 2}
+  - {fileID: 11400000, guid: 6c45bd046ceaa3d4fbc39884ccd02693, type: 2}
+  - {fileID: 11400000, guid: cb2b757a429c55949a9f181405c0e2e9, type: 2}
+  - {fileID: 11400000, guid: 9c75364a3c5c0224f8a32b6ae280f94f, type: 2}
+  - {fileID: 11400000, guid: 0dcdfa7796706cb4293272765fd159c8, type: 2}
+  - {fileID: 11400000, guid: b05d8d3d092fdcb498c71278e58d3c5a, type: 2}
+  cycles: 3
+  cycleSpeedUp: 0.5
